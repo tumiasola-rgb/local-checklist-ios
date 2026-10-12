@@ -1,0 +1,23 @@
+Xcode Cloud / TestFlight 配置
+
+只选择 LocalChecklist-iPhone scheme，iOS / Release / Archive。
+Team: YX469H39GT
+Bundle ID: com.yx469h39gt.localchecklist.iphone
+最低系统：iOS 17.0；云端使用当前受支持的稳定 Xcode 26 或以上版本。
+主 App 和对应测试目标已配置自动签名；其他原始目标保留原配置。
+
+Archive 的 Deployment Preparation 选择 TestFlight and App Store，
+以便后续外部测试；该设置不会自动公开上架 App Store。
+初次只手动触发，暂不配置自动发送给测试者的 Post-action。
+云端构建号应高于 App Store Connect 中同版本已有构建号；首次在后台核对。
+新工具链首次运行现有 iOS 测试验证兼容性，主 App 代码未因云端接入而改变。
+
+不把 Ad Hoc 描述文件或本地私钥加入仓库；云端使用 Apple 管理的签名流程。
+加密合规资料仍待核实，不自动声明“未使用加密”。
+公司每月内含构建额度由团队共享，不自行升级付费套餐。
+成功标准：云端 Archive 成功，构建在 App Store Connect 处理完成，
+本人真机验证启动、保存与重开、权限、提醒及备份后，再准备外部测试审核。
+TestFlight 每个构建最多可测试 90 天，后续需提供更新。
+
+原 README 和 Documentation 中的历史验证记录保留作来源记录；
+它们不代表新工具链、云端构建、Beta 审核或真机安装已通过。

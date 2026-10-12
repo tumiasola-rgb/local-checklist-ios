@@ -1,0 +1,8 @@
+// Change these two values in Xcode or this file before running on your iPhone.
+// The same App Group must be enabled for the app and widget targets.
+BASE_BUNDLE_IDENTIFIER = com.example.LocalChecklist
+APP_GROUP_IDENTIFIER = group.$(BASE_BUNDLE_IDENTIFIER)
+DEVELOPMENT_TEAM =
+CODE_SIGN_STYLE = Automatic
+IPHONEOS_DEPLOYMENT_TARGET = 17.0
+SWIFT_VERSION = 5.0

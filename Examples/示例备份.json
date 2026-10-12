@@ -1,0 +1,88 @@
+{
+  "format": "LocalChecklistBackup",
+  "version": 1,
+  "exportedAt": 1791259200000,
+  "payload": {
+    "tasks": [
+      {
+        "id": "3A43556C-84A0-5408-A49F-6080BD49731D",
+        "title": "试着完成第一条待办",
+        "detail": "这是一条演示数据。点左侧方框即可完成。",
+        "listID": "34B2D9F6-521C-50D7-A550-4639D8F6A257",
+        "tags": [
+          "示例"
+        ],
+        "startDay": "2026-10-06",
+        "timeMinutes": 540,
+        "isCompleted": false,
+        "createdAt": 1791259200000,
+        "updatedAt": 1791259200000
+      },
+      {
+        "id": "023E3D9C-3175-5559-ACB7-31591F3E0ED3",
+        "title": "为周末旅行做准备",
+        "detail": "跨日任务会在日历中连续显示。",
+        "listID": "34B2D9F6-521C-50D7-A550-4639D8F6A257",
+        "tags": [
+          "示例",
+          "生活"
+        ],
+        "startDay": "2026-10-06",
+        "endDay": "2026-10-09",
+        "isCompleted": false,
+        "createdAt": 1791259200000,
+        "updatedAt": 1791259200000
+      },
+      {
+        "id": "C267D8D5-24ED-5603-8635-8D2F2096C702",
+        "title": "了解整包备份",
+        "detail": "设置 → 一键导出整包备份。",
+        "listID": "34B2D9F6-521C-50D7-A550-4639D8F6A257",
+        "tags": [
+          "示例"
+        ],
+        "startDay": "2026-10-05",
+        "isCompleted": true,
+        "completedAt": 1791259200000,
+        "createdAt": 1791172800000,
+        "updatedAt": 1791259200000
+      }
+    ],
+    "notes": [
+      {
+        "id": "EA035A30-2977-528C-A111-A303B4CE94E6",
+        "title": "欢迎使用本地清单",
+        "body": "这是一篇示例笔记。\n\n所有资料由你掌握。编辑会自动保存在本机；分享时可生成完整分页图片。\n\n这份示例备份不会自动导入。导入会覆盖本机数据，请仅在空白测试安装中体验。",
+        "tags": [
+          "示例"
+        ],
+        "isPinned": true,
+        "createdAt": 1791259200000,
+        "updatedAt": 1791259200000
+      }
+    ],
+    "anniversaries": [
+      {
+        "id": "E4E78748-41F1-5EE0-AC76-2B7DBC1A12B2",
+        "title": "一个新的开始",
+        "day": "2026-10-01",
+        "emoji": "🌱",
+        "repeatYearly": false
+      }
+    ],
+    "lists": [
+      {
+        "id": "34B2D9F6-521C-50D7-A550-4639D8F6A257",
+        "title": "示例清单",
+        "colorHex": "#536DFE"
+      }
+    ],
+    "settings": {
+      "firstWeekday": 1,
+      "showLunar": true,
+      "searchHistory": []
+    },
+    "revision": 1,
+    "generation": "A394439B-6014-58DF-8954-9F9ACAC4D233"
+  }
+}

@@ -1,0 +1,20 @@
+.DS_Store
+.build-check/
+build/
+DerivedData/
+*.xcuserstate
+xcuserdata/
+__pycache__/
+
+# Local signing material and exported artifacts
+*.ipa
+*.xcarchive/
+*.mobileprovision
+*.p12
+*.p8
+*.pem
+*.cer
+*.certSigningRequest
+.env
+.env.*
+private/

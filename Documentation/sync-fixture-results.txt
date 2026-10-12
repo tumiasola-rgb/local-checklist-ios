@@ -1,0 +1,41 @@
+test_audit_time_difference_does_not_create_business_conflict (__main__.CausalFixtures.test_audit_time_difference_does_not_create_business_conflict) ... ok
+test_clock_skew_irrelevant (__main__.CausalFixtures.test_clock_skew_irrelevant) ... ok
+test_delete_edit_preserves_content (__main__.CausalFixtures.test_delete_edit_preserves_content) ... ok
+test_double_delete_converges_without_content_conflict (__main__.CausalFixtures.test_double_delete_converges_without_content_conflict) ... ok
+test_duplicate_clock_rejected (__main__.CausalFixtures.test_duplicate_clock_rejected) ... ok
+test_duplicate_id_rejected (__main__.CausalFixtures.test_duplicate_id_rejected) ... ok
+test_edit_completion_conflict (__main__.CausalFixtures.test_edit_completion_conflict) ... ok
+test_import_is_independent_and_missing_is_not_delete (__main__.CausalFixtures.test_import_is_independent_and_missing_is_not_delete) ... ok
+test_known_conflict_must_block_ordinary_edit (__main__.CausalFixtures.test_known_conflict_must_block_ordinary_edit) ... ok
+test_offline_edits_coalesce (__main__.CausalFixtures.test_offline_edits_coalesce) ... ok
+test_old_ack_cannot_clear_new_edit (__main__.CausalFixtures.test_old_ack_cannot_clear_new_edit) ... ok
+test_randomized_join_laws (__main__.CausalFixtures.test_randomized_join_laws) ... ok
+test_replayed_old_packet_preserves_pending (__main__.CausalFixtures.test_replayed_old_packet_preserves_pending) ... ok
+test_retries_are_idempotent (__main__.CausalFixtures.test_retries_are_idempotent) ... ok
+test_stale_review_rejected (__main__.CausalFixtures.test_stale_review_rejected) ... ok
+test_two_offline_edits_preserve_both (__main__.CausalFixtures.test_two_offline_edits_preserve_both) ... ok
+test_ack_only_confirms_exact_sent_heads (__main__.LANProtocolFixtures.test_ack_only_confirms_exact_sent_heads) ... ok
+test_exact_last_chunk (__main__.LANProtocolFixtures.test_exact_last_chunk) ... ok
+test_frame_length_boundaries (__main__.LANProtocolFixtures.test_frame_length_boundaries) ... ok
+test_packet_digest_before_atomic_commit (__main__.LANProtocolFixtures.test_packet_digest_before_atomic_commit) ... ok
+test_pair_code_requires_128_bits_not_six_digits (__main__.LANProtocolFixtures.test_pair_code_requires_128_bits_not_six_digits) ... ok
+test_pairing_requires_both_explicit_approvals (__main__.LANProtocolFixtures.test_pairing_requires_both_explicit_approvals) ... ok
+test_residual_keychain_cannot_authorize_new_install (__main__.LANProtocolFixtures.test_residual_keychain_cannot_authorize_new_install) ... ok
+test_session_and_sequence_replay_rejected (__main__.LANProtocolFixtures.test_session_and_sequence_replay_rejected) ... ok
+test_whole_packet_chunk_bound_is_640 (__main__.LANProtocolFixtures.test_whole_packet_chunk_bound_is_640) ... ok
+test_atomic_store_and_explicit_schema_migration (__main__.SourceContracts.test_atomic_store_and_explicit_schema_migration) ... ok
+test_backup_content_conflicts_and_projection_validation (__main__.SourceContracts.test_backup_content_conflicts_and_projection_validation) ... ok
+test_cancelled_runtime_cannot_publish_late_status_or_restart_listener (__main__.SourceContracts.test_cancelled_runtime_cannot_publish_late_status_or_restart_listener) ... ok
+test_no_active_cloudkit_route (__main__.SourceContracts.test_no_active_cloudkit_route) ... ok
+test_pairing_and_installation_gate (__main__.SourceContracts.test_pairing_and_installation_gate) ... ok
+test_receipt_after_durable_commit (__main__.SourceContracts.test_receipt_after_durable_commit) ... ok
+test_tls_psk_authenticated_lan_only (__main__.SourceContracts.test_tls_psk_authenticated_lan_only) ... ok
+test_wire_packet_bounded_and_fully_validated (__main__.SourceContracts.test_wire_packet_bounded_and_fully_validated) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 0.870s
+
+OK
+
+BOUNDARY: These are independent Python fixtures and Swift source-contract checks.
+NOT RUN: Swift compile/typecheck, native XCTest, real Keychain/TLS handshake, Bonjour/local-network permissions, signed iPhone/Mac two-device exchange.
